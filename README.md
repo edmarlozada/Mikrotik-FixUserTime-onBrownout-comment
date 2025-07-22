@@ -89,7 +89,7 @@ console clear-history
 
 ```
 
-#### Step 2: "Copy the script provided below. You'll need to add this line to the hotspot user profile's onlogout."
+#### Step 2: "Copy the script provided below. You'll need to add this line to the hotspot user profile's On-Logout."
 ```bash
 system scheduler set [find name=$username] comment=""
 
